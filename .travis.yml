@@ -21,7 +21,7 @@ script:
   - python-codacy-coverage -r coverage.xml
 deploy:
   provider: heroku
-  app: egc-alebangon-examen
+  app: https://egc-alebangon-examen.herokuapp.com/
   strategy: git
   api_key: 05d769aa-64e7-4d7a-8f42-645b2b257e81
 jobs:
